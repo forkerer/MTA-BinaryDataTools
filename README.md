@@ -54,7 +54,7 @@ Example code showing usage of BinaryWriter to write lua data as binary, and conv
     -- -nan(ind)
 ```   
 
-# All functions availible for BinaryConverter:
+# All functions available for BinaryConverter:
 ```lua
     BinaryConverter:SetEndianness( endianness ) --Sets whether conversions should use little endian, or big endian memory layout 
     BinaryConverter:ToBinaryString( num, bits ) --Prints binary representation of given number with up to *bits* chars
@@ -92,7 +92,7 @@ Example code showing usage of BinaryWriter to write lua data as binary, and conv
     BinaryConverter:ToCharArray( str ) --Converts lua string into null terminated string
 ```
 
-# All functions availible for BinaryWriter:
+# All functions available for BinaryWriter:
 ```lua
     BinaryWriter( string/file ) --Creates new instance of BinaryWriter, that will write to given string/file. I will call this given string/file *stream* in further comments
     BinaryWriter:GetCurrentString() --Gives either the content of whole file if it's writing into it, or entire string with binary data in it
@@ -114,7 +114,7 @@ Example code showing usage of BinaryWriter to write lua data as binary, and conv
     BinaryWriter:WriteString( num ) --Writes null terminated string into stream
 ```
 
-# All functions availible for BinaryReader:
+# All functions available for BinaryReader:
 ```lua
     BinaryReader( string/file ) --Creates new instance of BinaryReader, that will read from given string/file. I will call this given string/file *stream* in further comments
 
