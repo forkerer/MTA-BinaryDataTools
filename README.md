@@ -4,7 +4,7 @@ The binary conversions are written in pure lua, meaning that they can be used ou
 &nbsp;
 
  # Note about floating point formats
-While i tried to make reading/writing floating point formats as precise as i could, i can't guarantee in any way it will be perfect.
+While i tried to make writing floating point formats as precise as i could, i can't guarantee in any way it will be perfect.
 &nbsp;
 
 # File structure:
