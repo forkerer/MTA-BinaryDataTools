@@ -1,0 +1,8 @@
+<meta>
+	<info version="1.0.0" type="script" author="Quindo/Forkerer" />
+
+	<script src="Scripts/BinaryConverter/Classes/BinaryConverter.lua" type="client" cache="false"/>
+	<script src="Scripts/BinaryReader/Classes/BinaryReader.lua" type="client" cache="false"/>
+	<script src="Scripts/BinaryWriter/Classes/BinaryWriter.lua" type="client" cache="false"/>
+		
+</meta>
